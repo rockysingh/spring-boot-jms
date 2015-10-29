@@ -1,13 +1,13 @@
-An example of how to use an embedded ActiveMQ broker in Spring Boot:
+# An example of how to use an embedded ActiveMQ broker in Spring Boot:
 
-    -The example shows to how to add JSON string to the queue.
+    -The example shows how to add JSON string to the queue.
     
 ### Prerequisite
 Java 8
 Gradle 2.3+
 
 # Installation
-#### run unit tests
+#### run junit
 
 ```sh
 $ gradle test
@@ -15,5 +15,5 @@ $ gradle test
 #### run demo
 
 ```sh
-$ gradle run
+$ gradle bootRun
 ```
